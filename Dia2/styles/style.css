@@ -1,3 +1,48 @@
 .Image1{
-width: 100px;
+width: 250px;
+height: 250px;
+border-radius: 20%;
+margin-left: 130px;
+}
+
+.Personal_info{
+    border: 1px solid black;
+    width: 470px;
+    height: 250px;
+    text-align: center;
+    padding: 40px;
+}
+
+.Academic_info{
+    border: 1px solid black;
+    width: 100px;
+    height: 200px;
+    margin-top: -600px;
+    margin-left: 600px;
+    margin-bottom: 500px;
+    text-align: center;
+    padding: 70px;
+
+}
+
+.Skills{
+    border: 1px solid black;
+    width: 100px;
+    height: 200px;
+    margin-top: -400px;
+    margin-left: 600px;
+    margin-bottom: 500px;
+    text-align: center;
+    padding: 70px;
+}
+
+.Personal_projects{
+    border: 1px solid black;
+    width: 400px;
+    height: 500px;
+    margin-top: -1300px;
+    margin-left: 900px;
+    margin-bottom: 700px;
+    text-align: center;
+    padding: 100px;
 }
