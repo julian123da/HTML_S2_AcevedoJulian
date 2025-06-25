@@ -3,12 +3,19 @@
     src: url(./Fonts/Amazon\ Ember\ Bold.ttf);
   }
 
+  @font-face {
+    font-family: "Light";
+    src: url(./Fonts/Amazon\ Ember\ Light.ttf);
+  }
+
+ 
 
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 
 }
 
@@ -16,18 +23,52 @@ body {
     background-image: url(./FondoTwitch.png);
     background-color: #000;
     overflow-x: hidden;
+    background-repeat:no-repeat;
+    background-size: 1920px 1080px;
+    overflow: hidden;
 }
 
 .Title1 {
     color: white;
-    background-color:#00A8E1;
     height: 567px;
     width: 1200px;
     margin-left: 200px;
-    margin-top: 300px;
+    margin-top: 400px;
     border-radius: 108px;
+    font-size: 32px;
+    font-family: "Fontbold";
+    padding-top: 100px;
 }
 
 .LogoPrime {
-    margin-top: -500px;
+    margin-top: -720px;
+    position: absolute;
+    width: 570px;
+    height: 313px;
+    margin-left: 380px;
+}
+
+.search {
+    margin-top: -830px;
+    margin-left: 65px;
+}
+
+.Login {
+    font-size: 10px;
+    color: black;
+    margin-left: 1680px;
+    background-color: white;
+    width: 130px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: -20px;
+
+}
+
+.Sub_text {
+    color: white;
+    margin-top: -50px;
+    padding-top: 300px;
+    margin-bottom: 400px;
 }
