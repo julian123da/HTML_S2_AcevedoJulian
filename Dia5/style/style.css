@@ -1,0 +1,15 @@
+.elemento{
+  /*background-color: trasnparent;*/
+  color: rgb(42, 25, 25);
+  padding: 20px;
+  background-color: rgb(60, 69, 254,0.5);
+  background-image: linear-gradient(to right, black 0%, white 25%, blue 30%, gold 50%, red 100%);
+}
+
+.elemento2{
+    background-image: radial-gradient(red, white, black, gold);
+}
+
+.elemento3{
+    background-image: conic-gradient(red, white, black, gold);
+}
