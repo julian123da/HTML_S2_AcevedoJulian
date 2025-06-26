@@ -1,7 +1,59 @@
+@font-face {
+    font-family: "semibold";
+    src: url(./Fonts/OpenSans-SemiBold);
+}
+
+@font-face {
+    font-family: "regular";
+    src: url(./Fonts/OpenSans-Regular);
+}
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
 .rectangle{
     background-color: black;
     width: 110px;
-    height: 1080px;
-    margin-left: 1802px;
-    margin-top: -509px;
+    height: 1095px;
+    margin-left: 1810px;
+    margin-top: 0px;
+    position: absolute;
+    
+}
+
+.Center_container img{
+    margin-left: 130px;
+    margin-top: 198px;
+    position: absolute;
+}
+
+.logo_metrolinea{
+    margin-top: 80px;
+    margin-left: 30px;
+    position: absolute;
+
+}
+
+.body{
+    overflow: hidden;
+
+}
+
+.subtitulo{
+    position: absolute;
+    margin-top: 935px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.subtitulo_secundario{
+    position: absolute;
+    margin-top: 999px;
+    margin-left: 30px;
+    font-size: 45px;
 }
