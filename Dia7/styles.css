@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+    position: absolute;
+}
+
+.Logo{
+    color: white;
+    position: absolute;
+    font-size: 6vh;
+}
