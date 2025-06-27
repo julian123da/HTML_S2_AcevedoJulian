@@ -1,0 +1,46 @@
+div{
+    background-color: red;
+}
+
+div h1{
+    color: white;
+}
+
+div h1#tarde{
+    color: blue;
+}
+
+button{
+    background-color: aqua;
+}
+
+button[disabled]{
+    font-family:Georgia, 'Times New Roman', serif;
+}
+
+input[type="password"]{
+    font-family:'Segoe UI',Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 255, 26);
+}
+
+input[placeholder="John Doe"]{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blue;
+}
+/*Ejemplo BEM*/
+
+.boton{
+    /*Estilos base para el bloque*/
+}
+
+.boton__icono{
+    /*Estilos para el elemento del bloque boton*/
+}
+
+.boton__texto{
+    /*Estilos para el elemento texto dentro del bloque boton*/
+}
+
+.boton--primario{
+    /*Estilos adicionales para el boton en su estado primario {modificador)*/
+}

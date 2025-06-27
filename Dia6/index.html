@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Wenas</h1>
+        <h1 id="tarde">Tardes</h1>
+        <h1>Compas</h1>
+    </div>
+
+    <br/>
+    <br/>
+         <div>
+            <h1>Wenas</h1>
+            <h1 id="tarde">Tardes</h1>
+            <h1>Compas</h1>
+        <div>
+        <h1>Wenas</h1>
+        <button>No me des click</button>
+        <button disabled>No me des click</button>
+        <br/>
+        <br/>
+        <form action="google.com">
+            <label for="">Nombre</label>
+            <br>
+            <input type="text" placeholder="John Doe"/>
+            <br>
+            <label for="">Apellido</label>
+            <br>
+            <input type="password">
+        </form>
+        <!--METODLOGIA BEM (Block, Element, Modifier) -Nomenclatura-->
+         <!--Bloque (Block)-->
+          <!--Se entendera como un bloque a un componente independiente y autonomo que tendra
+          un significado propio, la cual sera una entidad visual del usuario que se podra
+          reutilizar-->
+          <div class="boton">
+            <!--Elemento (Element)-->
+            <!--Un elemento es una parte de un bloque queno tiene significado propio y no se
+            podra reutilizar independientemente del bloque a que pertenezca-->
+            <span class="boton__icono">...</span>
+            <span class="boton__texto">Hacer click</span>
+            <!--Modificar (Mpdifier)-->
+            <!--Un modificador es una variación o estado de un bloque o elemento, pues se 
+            utliza para cambiar la apariencia o comportamiento del bloque o
+            elemento sin modificar su estructura principal-->
+            <div class="boton boton--primario"> </div>
+          </div>    
+</body>
+</html>
