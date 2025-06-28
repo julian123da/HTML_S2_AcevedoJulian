@@ -7,4 +7,55 @@ body{
     color: white;
     position: absolute;
     font-size: 6vh;
+    margin-top: -3997px;
+    margin-left: 1699px;
+}
+
+.Home{
+    color: white;
+    position: absolute;
+    font-size: 6vh;
+    margin-top: -3989px;
+    margin-left: 3675px;
+}
+
+.About{
+    color: white;
+    position: absolute;
+    font-size: 6vh;
+    margin-top: -3986px;
+    margin-left: 3999px;
+}
+
+.Menu{
+    color: white;
+    position: absolute;
+    font-size: 6vh;
+    margin-top: -3982px;
+    margin-left: 4329px;
+}
+
+.Contact{
+    color: white;
+    position: absolute;
+    font-size: 6vh;
+    margin-top: -3980px;
+    margin-left: 4659px;
+
+}
+
+.title1{
+    color: white;
+    position: absolute;
+    font-size: 11vh;
+    margin-top: -3427px;
+    margin-left: 1976px;
+}
+
+.title2{
+    color: white;
+    position: absolute;
+    font-size: 11vh;
+    margin-top: -986px;
+    margin-left: 1952px;
 }
