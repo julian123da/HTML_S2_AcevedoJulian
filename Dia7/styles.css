@@ -162,3 +162,20 @@ body{
     margin-top: 6796px;
     margin-left: 112px;
 }
+
+.cuadrado1 p{
+    color: white;
+    width: 123px;
+    height: 245px;
+    margin-top: 35px;
+
+}
+
+.cuadrado1{
+    height: 85vh;
+    width: 34vw;
+    position: absolute;
+    border: 2px solid #fdcd4b;
+    margin-top: 6234px;
+    margin-left: 456px;
+}
