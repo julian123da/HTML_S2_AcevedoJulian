@@ -1,7 +1,15 @@
+*{margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+}
+
 body{
     background-color: black;
-    position: absolute;
+    overflow-x: hidden;
+    color: white;
 }
+
 
 .Logo{
     color: white;
