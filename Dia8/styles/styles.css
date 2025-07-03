@@ -1,3 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
 body{
     background-color: black;
+}
+
+.Conatainer_chart1{
+display: grid;
+
+grid-template-columns: 50% 50%;
+grid-template-rows: 50% 50%;
+align-items:center;
+align-content: center;
+margin-left: 14%;
+}
+
+.Conatainer__chart1--img1{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    
+}
+
+
+.Conatainer__chart1--vid1{
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+
+
+
+.Conatainer__chart1--img2{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    
 }
