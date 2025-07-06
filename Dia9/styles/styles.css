@@ -56,3 +56,12 @@ body{
     grid-column-end:3 ;
     border-radius: 2;
 }
+
+.logo{
+    width: 12vw;
+}
+
+.comida_bebida{
+    width: 12vw;
+    height: 13vh;
+}
